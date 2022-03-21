@@ -2,9 +2,27 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-    background: #f5d9f5;
+    background: #f5d9d5;
 }
 
-#mainNavBar .navbar-brand, .nav-item {
-    font-size: 1.55rem;
+#mainNavBar {
+    font-size: 1.6rem;
 }
+
+#mainNavBar .navbar-brand {
+    font-size: 1.6rem;
+    color: #ea1c2c;
+}
+
+#mainNavBar .nav-link {
+    color: #fff;
+}
+
+#mainNavBar .nav-link:hover {
+    color: #ea1c2c;
+}
+
+section #headingGroup p {
+    font-size: 4rem;
+}
+
