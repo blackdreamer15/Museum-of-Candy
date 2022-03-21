@@ -22,7 +22,33 @@ body {
     color: #ea1c2c;
 }
 
-section #headingGroup p {
-    font-size: 4rem;
+section {
+    margin-bottom: 100px;
 }
 
+section #headingGroup h1 {
+    font-size: 2.8rem;
+    font-weight: 100;
+}
+
+section #headingGroup span {
+    color:#ea1c2c;
+    font-weight: 800;
+}
+
+@media (max-width: 1200px) {
+    section #headingGroup h1 {
+        font-size: 2.5rem;
+    }
+}
+
+#section2 h2 {
+    color: #ea1c2c;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+#section2 p {
+    color: #f498b8;
+    font-size: 1.2rem;
+}
